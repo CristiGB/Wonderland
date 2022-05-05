@@ -1,9 +1,13 @@
+.contenido-central{
+    display: grid;
+    grid-template-columns: 25% 1fr;
+}
+
 .container-cards{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 25%;
     padding: 1rem 0;
     background-color: brown;
 }
@@ -14,4 +18,7 @@
     background-color: aqua;
     margin-bottom: 1rem;
 }
-.contenido-main
+
+.contenido-main-titulo{
+    text-align: center;
+}
