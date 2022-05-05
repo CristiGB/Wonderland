@@ -1,0 +1,17 @@
+.container-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    padding: 1rem 0;
+    background-color: brown;
+}
+
+.card{
+    width: 85%;
+    height: 10rem;
+    background-color: aqua;
+    margin-bottom: 1rem;
+}
+.contenido-main
