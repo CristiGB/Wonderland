@@ -6,11 +6,16 @@
     position: fixed;
     background-color: rgba(193, 30, 49,0.8);
     color: rgb(255, 255, 255);
-    border: 1px solid white;
+    border: none;
     cursor: pointer;
     right: 1rem;
+    font-weight: bold;
 }
 
+.contenido-central-button:active{
+    background-color: rgba(255, 43, 68, 0.8);
+    color: rgb(61, 15, 15);
+}
 
 .footer{
     background-color: rgb(1, 2, 4);
