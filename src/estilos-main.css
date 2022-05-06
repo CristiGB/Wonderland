@@ -1,5 +1,14 @@
+
 .contenido-central{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contenido-central-visual{
     display: grid;
+    width: 100%;
     grid-template-columns: 24% 1fr;
 }
 

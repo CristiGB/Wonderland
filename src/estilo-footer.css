@@ -10,12 +10,45 @@
     cursor: pointer;
     right: 1rem;
     font-weight: bold;
+    animation: traslator 1.6s alternate;
 }
 
 .contenido-central-button:active{
     background-color: rgba(255, 43, 68, 0.8);
     color: rgb(61, 15, 15);
 }
+
+@keyframes traslator{
+    0%{
+        transform: translate(100px);
+    }
+}
+
+/*imagen Flotante*/
+
+.container-flotante{
+    position: fixed;
+    width: 25vw;
+    height: 50vh;
+    overflow: hidden;
+    display: flex;
+    top: 25vh;
+    justify-content: center;
+}
+
+.container-flotante img{
+    width: auto;
+    height: 100%;
+}
+.container-flotante button{
+    height: 40px;
+    width: 40px;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+/*footer*/
 
 .footer{
     background-color: rgb(1, 2, 4);
