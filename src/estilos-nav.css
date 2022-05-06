@@ -21,8 +21,9 @@ body{
 }
 
 .nav-container-logo{
-    width: 3rem;
+    width: 5rem;
     height: 2.8rem;
+    font-size: 1rem;
     overflow: hidden;
     margin: 0.6rem 0.6rem 0;
 }

@@ -1,6 +1,21 @@
+.contenido-central-button{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    bottom: 2.5rem;
+    position: fixed;
+    background-color: rgba(193, 30, 49,0.8);
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+    cursor: pointer;
+    right: 1rem;
+}
+
+
 .footer{
-    background-color: blueviolet;
+    background-color: rgb(1, 2, 4);
     text-align: center;
     min-height: 3rem;
     padding-top: 1rem;
+    color: rgb(255, 180, 180);
 }
