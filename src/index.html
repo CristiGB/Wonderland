@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./estilos-nav.css">
-    <link rel="stylesheet" href="./estilos-main.css">
+    <link rel="stylesheet" href="./estilos_global.css">
+   <link rel="stylesheet" href="./estilos-nav.css">
+   <link rel="stylesheet" href="./estilos-main.css">
     <link rel="stylesheet" href="./estilo-footer.css">
     <title>Desafio</title>
 </head>
@@ -19,7 +20,7 @@
                 <figure class="nav-container-song">
                     <img src="./images/sonido.png" class="img_music play" onclick="onClickPause_Play()" 
                         alt="icono del sonido">
-                    <audio class="audio_alice_principal" src="./audio/alices_theme.mp3" >
+                    <audio class="audio_alice_principal" src="./audio/alices_theme.mp3" autoplay >
                 </figure>
             </div>
             <ul class="nav-list">
@@ -55,12 +56,15 @@
                     For Alicia apparently yes, she travels to a strange, grotesque and  <br>
                     frightening world,  where she has to keep a cool head to unmask the <br>
                     absurdity of the situations she experiences.</p>
-                
+                <div class="container_credits">
+                    <div class="credits">
+                        <LEWIS>ALICIA IN THE WONDERLAND <br>-LEWIS CARROLL</p>
+                    </div>
+                </div>
             </div>
+            
         </div>
-        <div class="credits">
-            <LEWIS>ALICIA IN THE WONDERLAND <br>-LEWIS CARROLL</p>
-        </div>
+        
         <button type="button" class="contenido-central-button" onclick="onClickMe()" >CLICK ME!</button>
     </main>
     <footer class="footer">

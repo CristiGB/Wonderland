@@ -34,13 +34,17 @@ const random = (min, max)=>{
   }
 
 const añadir_buton_close =()=>{
+    let cont_btn_cls =document.createElement('div');
+    cont_btn_cls.classList.add('container_btn_close');
     let btn_clse=document.createElement('button');
     btn_clse.type='button';
-    btn_clse.innerText='Close'
+    btn_clse.innerText='Puch Me'
     btn_clse.classList.add('btn_close');
     btn_clse.id = 'btn_close'
     btn_clse.setAttribute('onClick','onClickremover()');
-    document.querySelector('.container-flotante').appendChild(btn_clse);
+
+    cont_btn_cls.appendChild(btn_clse);
+    document.querySelector('.container-flotante').appendChild(cont_btn_cls);
 }
 function onClickremover(){
     let flotante = document.querySelector(".container-flotante");

@@ -7,13 +7,14 @@
 
 
 .contenido-central-visual{
-    display: grid;
+    display: flex;
     width: 100%;
-    grid-template-columns: 24% 1fr;
+    min-height: 100vh;
 }
 
 .container-cards{
     display: flex;
+    width: 24%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -45,6 +46,7 @@
     padding: 3%;
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
     align-items: center;
 }
 
@@ -67,10 +69,15 @@
 }
 
 /*cite*/
+
+.container_credits{
+    width: 100%;
+    margin-top: 2rem;
+}
+
 .credits{
-    position: absolute;
+    display: inline-block;
     text-align: center;
-    bottom: -7rem;
-    left: 28%;
     background-color: rgb(255, 236, 249);
+    color: #580826;
 }

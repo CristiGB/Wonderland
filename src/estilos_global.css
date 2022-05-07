@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./images/alice.jpg);
+    background-repeat: no-repeat;
+    background-color: #f03939;
+}
+
+::-webkit-scrollbar {
+    width: 0.5rem;     /* Tamaño del scroll en vertical */
+    background-color: #fffcfc;
+   /* height: 0.5rem;     Tamaño del scroll en horizontal */
+    /*display: none;   Ocultar scroll */
+}
+
+::-webkit-scrollbar-track {
+    background: #fffcfc;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: #f03939;
+}
