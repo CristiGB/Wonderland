@@ -54,6 +54,19 @@
     background-color: rgb(1, 2, 4);
     text-align: center;
     min-height: 3rem;
-    padding-top: 1rem;
+    padding: 1rem 0;
+    color: rgb(255, 180, 180);
+}
+footer figure{
+    filter: invert(1);
+    
+}
+
+.footer a:link{
+    text-decoration: none;
+    color: rgb(255, 180, 180);
+}
+
+.footer a:visited{
     color: rgb(255, 180, 180);
 }

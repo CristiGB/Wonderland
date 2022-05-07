@@ -48,11 +48,13 @@
     align-items: center;
 }
 
-.contenido-central-main p{
+.contenido-central-main > p{
     color: rgb(255, 236, 249);
     font-weight: bold;
     background-color: #580826;
 }
+
+
 .contenido-main-imagen{
     width: 70vh;
     height: 70vh;
@@ -62,4 +64,13 @@
 .contenido-main-imagen img{
     width: 100%;
     height: auto;
+}
+
+/*cite*/
+.credits{
+    position: absolute;
+    text-align: center;
+    bottom: -7rem;
+    left: 28%;
+    background-color: rgb(255, 236, 249);
 }
