@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./estilos_global.css">
-   <link rel="stylesheet" href="./estilos-nav.css">
-   <link rel="stylesheet" href="./estilos-main.css">
-    <link rel="stylesheet" href="./estilo-footer.css">
+    <link rel="stylesheet" href="../src/styles/estilos_global.css">
+   <link rel="stylesheet" href="../src/styles//estilos-nav.css">
+   <link rel="stylesheet" href="../src/styles//estilos-main.css">
+    <link rel="stylesheet" href="../src/styles//estilo-footer.css">
     <title>Desafio</title>
 </head>
 <body>
@@ -15,12 +15,12 @@
         <nav class="header-nav">
             <div class="header-nav-left">
                 <figure class="nav-container-logo">
-                    <img src="./images/Alice_in_Wonderland.svg" alt="logo">
+                    <img src="../src/assets/images/Alice_in_Wonderland.svg" alt="logo">
                 </figure>
                 <figure class="nav-container-song">
-                    <img src="./images/sonido.png" class="img_music play" onclick="onClickPause_Play()" 
+                    <img src="../src/assets/images/sonido.png" class="img_music play" onclick="onClickPause_Play()" 
                         alt="icono del sonido">
-                    <audio class="audio_alice_principal" src="./audio/alices_theme.mp3" autoplay >
+                    <audio class="audio_alice_principal" src="../src/assets/audio/alices_theme.mp3" autoplay>
                 </figure>
             </div>
             <ul class="nav-list">
@@ -50,7 +50,7 @@
             <div class="contenido-central-main">
                 <h1 class="contenido-main-titulo">WELCOME TO WONDERLAND!</h1>
                 <figure class="contenido-main-imagen">
-                    <img src="./images/alicia.png" alt="imagen-alicia">
+                    <img src="../src/assets/images/alicia.png" alt="imagen-alicia">
                 </figure>
                 <p>Is your boredom enough to follow a rabbit and jump down its hole?<br>
                     For Alicia apparently yes, she travels to a strange, grotesque and  <br>
@@ -68,10 +68,10 @@
         <button type="button" class="contenido-central-button" onclick="onClickMe()" >CLICK ME!</button>
     </main>
     <footer class="footer">
-        <address>Creado con cariño por <figure><img src="./images/github.png" href="https://github.com/CristiGB"></figure> 
+        <address>Creado con cariño por <figure><img src="../src/assets/images/github.png" href="https://github.com/CristiGB"></figure> 
             <a href="https://github.com/CristiGB"> CristiGB </a> </address>
     </footer>
-    <script src="./animated_clickme.js"></script>
-    <script src="./controls_audio.js"></script>
+    <script src="../src/utils/animated_clickme.js"></script>
+    <script src="../src/utils/controls_audio.js"></script>
 </body>
 </html>

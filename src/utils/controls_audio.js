@@ -7,12 +7,12 @@ function onClickPause_Play (){
     if(icon_music.classList.contains('play')){
         icon_music.classList.remove('play')
         icon_music.classList.add('pause');
-        icon_music.src="./images/no_song.png"
+        icon_music.src="../src/assets/images/no_song.png"
         musica_principal.pause();
     }else{
         icon_music.classList.remove('pause')
         icon_music.classList.add('play');
-        icon_music.src="./images/sonido.png"
+        icon_music.src="../src/assets/images/sonido.png"
         musica_principal.play();
     }
 

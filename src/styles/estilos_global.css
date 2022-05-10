@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url(./images/alice.jpg);
+    background-image: url(../assets/images/alice.jpg);
     background-repeat: no-repeat;
     background-color: #f03939;
 }
