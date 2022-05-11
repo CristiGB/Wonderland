@@ -10,7 +10,7 @@ function onClickMe (){
 
     if(document.querySelector('.container-flotante')){
         let flotante_imagen = document.querySelector('.container-flotante-img');
-        ruta = '../src/assets/images/random/imagen_'+n_img+'.jpg';
+        ruta = './src/assets/images/random/imagen_'+n_img+'.jpg';
         flotante_imagen.src  = ruta;
 
     }else{
@@ -18,7 +18,7 @@ function onClickMe (){
         flotante.classList.add("container-flotante");
         let flotante_imagen = document.createElement('img');
         flotante_imagen.classList.add('container-flotante-img');
-        ruta = '../src/assets/images/random/imagen_'+n_img+'.jpg';
+        ruta = './src/assets/images/random/imagen_'+n_img+'.jpg';
         flotante_imagen.src  = ruta;
 
         flotante.appendChild(flotante_imagen);
