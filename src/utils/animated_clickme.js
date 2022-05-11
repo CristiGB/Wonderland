@@ -38,7 +38,7 @@ const añadir_buton_close =()=>{
     cont_btn_cls.classList.add('container_btn_close');
     let btn_clse=document.createElement('button');
     btn_clse.type='button';
-    btn_clse.innerText='Puch Me'
+    btn_clse.innerText='Press Me'
     btn_clse.classList.add('btn_close');
     btn_clse.id = 'btn_close'
     btn_clse.setAttribute('onClick','onClickremover()');
