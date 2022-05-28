@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'Alice_wonder';
+    src: url('../fonts/Alice_in_Wonderland_3.ttf') format('truetype');
+    font-style: normal;
+    font-weight: bold;
+  }
+
+:root{
+    --rojiso: #f03939;
+    --transparent-brown: rgba(28, 16, 20, 0.6);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -5,9 +17,9 @@
 }
 
 body{
-    background-image: url(../assets/images/alice.jpg);
+    background-image: url(https://i.pinimg.com/564x/35/ff/57/35ff5708c7365ae2488b2cbe5c1a5b63.jpg);
+    background-color: var(--rojiso);
     background-repeat: no-repeat;
-    background-color: #f03939;
 }
 
 ::-webkit-scrollbar {
@@ -24,5 +36,5 @@ body{
 
 ::-webkit-scrollbar-thumb{
     border-radius: 10px;
-    background-color: #f03939;
+    background-color: var(--rojiso);
 }

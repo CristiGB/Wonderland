@@ -5,73 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/styles/estilos_global.css">
-   <link rel="stylesheet" href="./src/styles//estilos-nav.css">
-   <link rel="stylesheet" href="./src/styles//estilos-main.css">
-    <link rel="stylesheet" href="./src/styles//estilo-footer.css">
+    <link rel="stylesheet" href="./src/styles/estilos-nav.css">
+    <!--<link rel="stylesheet" href="./src/styles/estilos-main.css">
+    <link rel="stylesheet" href="./src/styles/estilo-footer.css"> -->
     <title>Desafio</title>
 </head>
 <body>
     <header>
         <nav class="header-nav">
-            <div class="header-nav-left">
-                <figure class="nav-container-logo">
-                    <img src="./src/assets/images/Alice_in_Wonderland.svg" alt="logo">
-                </figure>
-                <figure class="nav-container-song">
-                    <img src="./src/assets/images/sonido.png" class="img_music play" onclick="onClickPause_Play()" 
-                        alt="icono del sonido">
-                    <audio class="audio_alice_principal" src="./src/assets/audio/alices_theme.mp3" autoplay>
-                </figure>
+            <div class="header-nav--left header-nav--up">
+                
+                <div class="nav-container-icon--blanco nav-container-icon nav-container-icon__song" class="img_music play" 
+                  onclick="onClickPause_Play()">
+                    <audio class="audio_alice_principal" src="./src/assets/audio/alices_theme.mp3" >
+                </div>
+                <div class="nav-container-icon--blanco nav-container-icon nav-container-icon__logo"></div>
+                
             </div>
-            <ul class="nav-list">
-                <li><a href="https://aliceinwonderland.fandom.com/es/wiki/Alicia">About as</a></li>
-                <li><a href="https://aliceinwonderland.fandom.com/es/wiki/La_Madriguera_del_Conejo_Blanco">Madriguera</a</li>
-                <li><a href="https://www.ucm.es/data/cont/docs/119-2014-02-19-Carroll.AliciaEnElPaisDeLasMaravillas.pdf">Libro</a></li>
-                <li><a href="https://www.facebook.com/aliceinwonderlandofficialbook/community/?ref=page_internal&mt_nav=0&_rdr">Comunity</a></li>
-            </ul>
+            <input type="checkbox" id="nav__checked-burguer" class="nav__checked-burguer"/>
+                <label class="nav__checked-burguer-container" for="nav__checked-burguer">
+                    <div class="nav-container-icon--blanco icon-hamburguesa" ></div>
+                </label>
+            
+            <div class="header-nav--right header-nav--down">              
+                <ul class="header-nav--right-list">
+                    <li><a href="https://aliceinwonderland.fandom.com/es/wiki/Alicia">About as</a></li>
+                    <li><a href="https://aliceinwonderland.fandom.com/es/wiki/La_Madriguera_del_Conejo_Blanco">Madriguera</a</li>
+                    <li><a href="https://www.ucm.es/data/cont/docs/119-2014-02-19-Carroll.AliciaEnElPaisDeLasMaravillas.pdf">Libro</a></li>
+                    <li><a href="https://www.facebook.com/aliceinwonderlandofficialbook/community/?ref=page_internal&mt_nav=0&_rdr">Comunity</a></li>
+                </ul>
+            </div> 
         </nav>
     </header>
-    <main class="contenido-central">
-        <div class="contenido-central-visual">
-            <aside class="container-cards">
-                <div class="card cad1">
-                    <iframe  src="https://www.youtube.com/embed/Q8Q3RiBiNOI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="card card2">
-                    <iframe src="https://www.youtube.com/embed/YhlEY7doQEA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="card card3">
-                    <iframe src="https://www.youtube.com/embed/9POCgSRVvf0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="card card3">
-                    <iframe src="https://www.youtube.com/embed/x3IWwnNe5mc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-            </aside>
-            <div class="contenido-central-main">
-                <h1 class="contenido-main-titulo">WELCOME TO WONDERLAND!</h1>
-                <figure class="contenido-main-imagen">
-                    <img src="./src/assets/images/alicia.png" alt="imagen-alicia">
-                </figure>
-                <p>Is your boredom enough to follow a rabbit and jump down its hole?<br>
-                    For Alicia apparently yes, she travels to a strange, grotesque and  <br>
-                    frightening world,  where she has to keep a cool head to unmask the <br>
-                    absurdity of the situations she experiences.</p>
-                <div class="container_credits">
-                    <div class="credits">
-                        <LEWIS>ALICIA IN THE WONDERLAND <br>-LEWIS CARROLL</p>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-        
-        <button type="button" class="contenido-central-button" onclick="onClickMe()" >CLICK ME!</button>
-    </main>
-    <footer class="footer">
-        <address>Creado con cariño por <figure><img src="./src/assets/images/github.png" href="https://github.com/CristiGB"></figure> 
-            <a href="https://github.com/CristiGB"> CristiGB </a> </address>
-    </footer>
-    <script src="./src/utils/animated_clickme.js"></script>
-    <script src="./src/utils/controls_audio.js"></script>
+   
 </body>
 </html>
