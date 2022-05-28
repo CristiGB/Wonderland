@@ -2,10 +2,11 @@
 
 .header-nav{
     background-color: var(--transparent-brown);
-    padding: 0.6rem;
+    padding: 0.6rem 0.6rem 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
+    overflow: hidden;
 }
 
 /*parte arriba del nav*/
@@ -60,9 +61,11 @@
 /*listado de la parte derecha del nav*/
 
 .header-nav--down{
-    margin-top: 5px;
+    height: 0;
+    margin-top: 8px;
     grid-column: 1 / 4;
     justify-self: center;
+    transition: height 2s;
 }
 
 .header-nav--right-list{
@@ -81,4 +84,8 @@
     font-size: x-large;
     text-decoration: none;
     color: #ffffff;
+}
+
+.nav__checked-burguer:checked ~ .header-nav--down{
+    height: 150px;
 }
