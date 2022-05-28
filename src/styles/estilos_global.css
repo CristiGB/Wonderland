@@ -7,6 +7,7 @@
 
 :root{
     --rojiso: #f03939;
+    --morado: #580826;
     --transparent-brown: rgba(28, 16, 20, 0.6);
 }
 
@@ -17,9 +18,10 @@
 }
 
 body{
-    background-image: url(https://i.pinimg.com/564x/35/ff/57/35ff5708c7365ae2488b2cbe5c1a5b63.jpg);
+    background-image: url(https://i.pinimg.com/564x/db/86/ea/db86ea9057a3aefc58c58c4315ca1978.jpg);
     background-color: var(--rojiso);
-    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: drop-shadow(2px 4px 25px rgb(7, 7, 7));
 }
 
 ::-webkit-scrollbar {

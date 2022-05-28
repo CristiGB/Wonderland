@@ -24,6 +24,7 @@
 .nav-container-icon__logo{
     width: 6.5rem;
     height: 3.8rem;
+    justify-self: center;
     background-image: url(../assets/images/imgs/Alice_in_Wonderland.svg);
     background-repeat:no-repeat;
     background-size: contain;

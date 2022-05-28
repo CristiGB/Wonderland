@@ -1,4 +1,116 @@
+.contenido-central{
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+}
 
+.contenido-central-main{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+
+.contenido-main--imagen{
+    width: 100%;
+    height: min-content;
+    overflow: hidden;
+}
+
+.contenido-main--imagen img{
+    width: 100%;
+    height: auto;
+}
+
+.contenido-main--titulo{
+    margin: 20px 0;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.contenido-central-main > p{
+    color: rgb(255, 236, 249);
+    font-weight: 500;
+    background-color: var(--morado);
+}
+
+/*cite*/
+
+
+.container_credits{
+    width: max-content;
+    margin-top: 2rem;
+    left: 0;
+}
+
+.credits{
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(255, 236, 249);
+    color: #580826;
+}
+
+
+/*seccion cards*/
+
+.container-cards{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    background-color: rgb(128, 14, 33, 0.65);
+}
+
+.container-cards h2{
+    margin: 30px 0;
+    color: rgb(255, 236, 249);
+}
+
+.card{
+    width: 75%;
+    height: 9rem;
+    background-color: rgba(54, 11, 22,0.9);
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.cards--flecha{
+    position: absolute;   
+    width: 60px;
+    height: 100px;
+    background-image: url(../assets/images/imgs/flecha.png);
+    background-size: cover;
+    background-position: center;
+    filter: invert(1);
+}
+
+.cards--flecha__left{
+    left: 0;
+    margin-top: -280px;
+    transform: rotate(-150deg) scaleX(-1);
+}
+.cards--flecha__right{
+    right: 0;
+    margin-top: 80px;
+    transform: rotate(150deg);
+}
+
+.cards--flecha__left-down{
+    left: 0;
+    margin-top: 380px;
+    transform: rotate(-150deg) scaleX(-1);
+}
+
+/*
 .contenido-central{
     display: flex;
     justify-content: center;
@@ -68,16 +180,3 @@
     height: auto;
 }
 
-/*cite*/
-
-.container_credits{
-    width: 100%;
-    margin-top: 2rem;
-}
-
-.credits{
-    display: inline-block;
-    text-align: center;
-    background-color: rgb(255, 236, 249);
-    color: #580826;
-}
