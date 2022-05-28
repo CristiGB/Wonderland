@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./src/styles/estilos_global.css">
     <link rel="stylesheet" href="./src/styles/estilos-nav.css">
     <link rel="stylesheet" href="./src/styles/estilos-main.css">
-    <!--<link rel="stylesheet" href="./src/styles/estilo-footer.css"> -->
+    <link rel="stylesheet" href="./src/styles/estilo-flotans_footer.css">
     <title>Desafio</title>
 </head>
 <body>
@@ -37,8 +37,8 @@
             </div> 
         </nav>
     </header>
-
-    <main class="contenido-central">
+    <button type="button" class="contenido-central-button" onclick="onClickMe()" >CLICK ME!</button>
+    <main class="contenido-central">      
         <aside class="contenido-central-main">
             
             <figure class="contenido-main--imagen">
@@ -76,6 +76,12 @@
             </div>
         </aside>
     </main>
-   
+    
+    <footer class="footer">
+        <address>Creado con cariño por <figure><img src="./src/assets/images/icons/github.png" href="https://github.com/CristiGB"></figure> 
+            <a href="https://github.com/CristiGB"> CristiGB </a> </address>
+    </footer>
+    <script src="./src/utils/animated_clickme.js"></script>
+    <script src="./src/utils/controls_audio.js"></script>
 </body>
 </html>

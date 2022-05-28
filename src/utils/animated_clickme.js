@@ -22,7 +22,7 @@ function onClickMe (){
         flotante_imagen.src  = ruta;
 
         flotante.appendChild(flotante_imagen);
-        document.querySelector('.contenido-central').appendChild(flotante);
+        document.querySelector('body').appendChild(flotante);
         añadir_buton_close();
     }
     

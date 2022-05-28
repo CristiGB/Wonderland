@@ -21,7 +21,6 @@ body{
     background-image: url(https://i.pinimg.com/564x/db/86/ea/db86ea9057a3aefc58c58c4315ca1978.jpg);
     background-color: var(--rojiso);
     background-attachment: fixed;
-    filter: drop-shadow(2px 4px 25px rgb(7, 7, 7));
 }
 
 ::-webkit-scrollbar {

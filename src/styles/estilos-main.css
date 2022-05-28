@@ -55,12 +55,14 @@
 /*seccion cards*/
 
 .container-cards{
+    position: relative;
     display: flex;
     width: 100%;
+    padding: 1rem 0;
+    overflow: hidden;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 1rem 0;
+    align-items: center;   
     background-color: rgb(128, 14, 33, 0.65);
 }
 
