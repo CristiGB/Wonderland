@@ -1,8 +1,4 @@
-const container_cards = document.querySelector('.container-cards'),
-card1 = container_cards.querySelector('card1'),
-card2 = container_cards.querySelector('card2'),
-card3 = container_cards.querySelector('card3'),
-card4 = container_cards.querySelector('card4');
+const container_cards = document.querySelector('.container-cards');
 
 function onClickMe (){
     var n_img = random(0,14);

@@ -6,6 +6,7 @@
 
 .contenido-central-main{
     width: 90%;
+    max-width: 500px;
     text-align: center;
     margin: 0 auto;
     padding: 30px 0;
@@ -26,11 +27,11 @@
 .contenido-main--titulo{
     margin: 20px 0;
     font-weight: bold;
-    color: #ffffff;
+    color: var(--beich);
 }
 
 .contenido-central-main > p{
-    color: rgb(255, 236, 249);
+    color: rgb(255, 255, 255);
     font-weight: 500;
     background-color: var(--morado);
 }
@@ -47,35 +48,46 @@
 .credits{
     display: inline-block;
     text-align: center;
-    background-color: rgb(255, 236, 249);
+    background-color: rgb(255, 255, 255);
     color: #580826;
 }
 
 
 /*seccion cards*/
 
-.container-cards{
-    position: relative;
-    display: flex;
+.watch-cards{
     width: 100%;
-    padding: 1rem 0;
-    overflow: hidden;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;   
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;  
     background-color: rgb(128, 14, 33, 0.65);
 }
 
-.container-cards h2{
+
+.watch-cards h2{
     margin: 30px 0;
     color: rgb(255, 236, 249);
 }
 
+.cards-container{
+    position: relative;
+    width: 100%;
+    padding: 1rem 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    overflow: hidden;
+}
+
+
 .card{
     width: 75%;
+    max-width: 500px;
     height: 9rem;
     background-color: rgba(54, 11, 22,0.9);
-    margin-bottom: 1.5rem;
     border-radius: 8px;
     overflow: hidden;
 }
@@ -97,18 +109,18 @@
 
 .cards--flecha__left{
     left: 0;
-    margin-top: -280px;
+    margin-top: 80px;
     transform: rotate(-150deg) scaleX(-1);
 }
 .cards--flecha__right{
     right: 0;
-    margin-top: 80px;
+    margin-top: 280px;
     transform: rotate(150deg);
 }
 
 .cards--flecha__left-down{
     left: 0;
-    margin-top: 380px;
+    margin-top: 450px;
     transform: rotate(-150deg) scaleX(-1);
 }
 

@@ -81,7 +81,7 @@
 }
 
 .header-nav--right-list li a{
-    font-family: 'Alice_wonder';
+    font-family: 'Alice_wonder', sans-serif;
     font-size: x-large;
     text-decoration: none;
     color: #ffffff;

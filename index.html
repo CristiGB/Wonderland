@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://www.youtube.com">
     <link rel="stylesheet" href="./src/styles/estilos_global.css">
     <link rel="stylesheet" href="./src/styles/estilos-nav.css">
     <link rel="stylesheet" href="./src/styles/estilos-main.css">
@@ -15,7 +16,7 @@
         <nav class="header-nav">
             <div class="header-nav--left header-nav--up">
                 
-                <div class="nav-container-icon--blanco nav-container-icon nav-container-icon__song" class="img_music play" 
+                <div class="nav-container-icon--blanco nav-container-icon nav-container-icon__song play" 
                   onclick="onClickPause_Play()">
                     <audio class="audio_alice_principal" src="./src/assets/audio/alices_theme.mp3" >
                 </div>
@@ -42,7 +43,7 @@
         <aside class="contenido-central-main">
             
             <figure class="contenido-main--imagen">
-                <img src="./src/assets/images/imgs/alicia.png" alt="imagen-alicia">
+                <img src="./src/assets/images/imgs/alicia-mini.png" alt="imagen-alicia">
             </figure>
             <h1 class="contenido-main--titulo">¡WELCOME!</h1>
             <p>Is your boredom enough to follow a rabbit and jump down its hole?<br>
@@ -56,29 +57,30 @@
                 </div>
             </div>
         </aside>
-        <aside class="container-cards">
+        <aside class="watch-cards">
             <h2>WATCH ME</h2>
-            
-            <div class="card cad1">
-                <iframe  src="https://www.youtube.com/embed/Q8Q3RiBiNOI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="cards--flecha cards--flecha__left"></div>
-            <div class="card card2">
-                <iframe src="https://www.youtube.com/embed/YhlEY7doQEA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="cards--flecha cards--flecha__right"></div>
-            <div class="card card3">
-                <iframe src="https://www.youtube.com/embed/9POCgSRVvf0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="cards--flecha cards--flecha__left-down"></div>
-            <div class="card card3">
-                <iframe src="https://www.youtube.com/embed/x3IWwnNe5mc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="cards-container">
+                <div class="card cad1">
+                    <iframe  src="https://www.youtube.com/embed/Q8Q3RiBiNOI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="cards--flecha cards--flecha__left"></div>
+                <div class="card card2">
+                    <iframe src="https://www.youtube.com/embed/YhlEY7doQEA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="cards--flecha cards--flecha__right"></div>
+                <div class="card card3">
+                    <iframe src="https://www.youtube.com/embed/9POCgSRVvf0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="cards--flecha cards--flecha__left-down"></div>
+                <div class="card card3">
+                    <iframe src="https://www.youtube.com/embed/x3IWwnNe5mc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
             </div>
         </aside>
     </main>
     
     <footer class="footer">
-        <address>Creado con cariño por <figure><img src="./src/assets/images/icons/github.png" href="https://github.com/CristiGB"></figure> 
+        <address>Creado con cariño por <figure><img src="./src/assets/images/icons/github.png" alt="icono de github" href="https://github.com/CristiGB"></figure> 
             <a href="https://github.com/CristiGB"> CristiGB </a> </address>
     </footer>
     <script src="./src/utils/animated_clickme.js"></script>
