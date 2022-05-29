@@ -8,7 +8,8 @@
 
 :root{
     --rojiso: #f03939;
-    --morado: #580826;
+    --high-purple: rgb(128, 14, 33, 0.5);
+    --morado: rgb(128, 14, 33);
     --beich: #f2e6cc;
     --azul-dark: #291a44;
     --transparent-brown: rgba(28, 16, 20, 0.6);
@@ -20,10 +21,11 @@
     box-sizing: border-box;
 }
 
-body{
-    /*background-image: url(../assets/images/imgs/paper.jpg);*/
+body{   
     background-color: var(--azul-dark);
+    background-image: url(../assets/images/imgs/fondr-reform.jpg);
     background-attachment: fixed;
+    font-family: 'Alice_wonder', sans-serif;
 }
 
 ::-webkit-scrollbar {

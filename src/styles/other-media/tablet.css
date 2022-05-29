@@ -1,0 +1,29 @@
+.nav-container-icon__logo{
+    width: 9rem;
+    height: 5rem;
+}
+
+.contenido-central-button{
+    width: 7rem;
+    height: 7rem;
+    font-size: large;
+}
+
+.container_credits{
+    margin-left: -10%;
+}
+
+.cards-container{
+    gap: 20px;
+    max-width: 590px;
+}
+
+.cards--flecha{
+    display: none;
+    transition: all 1s;
+}
+
+.container-flotante{
+    width: 300px;
+    left: calc(50% - 300px / 2);
+}

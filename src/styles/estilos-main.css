@@ -14,9 +14,10 @@
 
 
 .contenido-main--imagen{
-    width: 100%;
-    height: min-content;
+    width: 75%;
+    max-width: 400px;
     overflow: hidden;
+    margin: 0 auto;
 }
 
 .contenido-main--imagen img{
@@ -26,14 +27,17 @@
 
 .contenido-main--titulo{
     margin: 20px 0;
+    font-size: 1.6rem;
     font-weight: bold;
-    color: var(--beich);
+    color: rgb(255, 255, 255);
 }
 
 .contenido-central-main > p{
     color: rgb(255, 255, 255);
+    font-family: emoji;
+    font-size: 1.1rem;
     font-weight: 500;
-    background-color: var(--morado);
+    background-color: rgb(128, 14, 33);
 }
 
 /*cite*/
@@ -43,13 +47,16 @@
     width: max-content;
     margin-top: 2rem;
     left: 0;
+    transition: all 1s;
 }
 
 .credits{
+    font-family: emoji;
+    font-size: 1rem;
     display: inline-block;
     text-align: center;
     background-color: rgb(255, 255, 255);
-    color: #580826;
+    color: var(--morado);
 }
 
 
@@ -57,16 +64,18 @@
 
 .watch-cards{
     width: 100%;
+    padding: 20px 1%;
     display: flex;
     flex-direction: column; 
     align-items: center; 
     text-align: center;  
-    background-color: rgb(128, 14, 33, 0.65);
+    background-color: var(--high-purple);
 }
 
 
 .watch-cards h2{
-    margin: 30px 0;
+    margin: 20px 0;
+    font-size: 1.6rem;
     color: rgb(255, 236, 249);
 }
 
@@ -84,10 +93,10 @@
 
 
 .card{
-    width: 75%;
-    max-width: 500px;
-    height: 9rem;
-    background-color: rgba(54, 11, 22,0.9);
+    width: 70%;
+    max-width: 280px;
+    height: 25vh;
+    background-color: var(--morado);
     border-radius: 8px;
     overflow: hidden;
 }
@@ -124,73 +133,4 @@
     transform: rotate(-150deg) scaleX(-1);
 }
 
-/*
-.contenido-central{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.contenido-central-visual{
-    display: flex;
-    width: 100%;
-    min-height: 100vh;
-}
-
-.container-cards{
-    display: flex;
-    width: 24%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem 0;
-    background-color: rgba(158, 32, 53,0.5);
-}
-
-.card{
-    width: 85%;
-    height: 10rem;
-    background-color: rgba(54, 11, 22,0.9);
-    margin-bottom: 1rem;
-    border-radius: 8px;
-    overflow: hidden;
-}
-.card iframe{
-    width: 100%;
-    height: 100%;
-}
-
-.contenido-main-titulo{
-    text-align: center;
-    margin-bottom: 2%;
-    color: #580826;
-    font-weight: bolder;
-}
-
-.contenido-central-main{
-    padding: 3%;
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    align-items: center;
-}
-
-.contenido-central-main > p{
-    color: rgb(255, 236, 249);
-    font-weight: bold;
-    background-color: #580826;
-}
-
-
-.contenido-main-imagen{
-    width: 70vh;
-    height: 70vh;
-    overflow: hidden;
-}
-
-.contenido-main-imagen img{
-    width: 100%;
-    height: auto;
-}
 

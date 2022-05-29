@@ -1,0 +1,76 @@
+.header-nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.icon-hamburguesa,.nav__checked-burguer-container{
+    display: none;
+    width: 0;
+}
+
+.nav-container-icon__logo{
+    margin-left: calc(50% - 30%);
+}
+
+.header-nav--right{
+    height: fit-content;
+}
+
+.header-nav--right-list{
+    display: flex;
+    gap: 5px;
+    padding: 0 5px;
+}
+
+/*main*/
+
+.container-flotante{
+    width: 30vw;
+    left: calc(50% - 30vw / 2);
+}
+
+.contenido-central{
+    flex-direction: row-reverse; 
+}
+
+.contenido-central-main{
+    position: relative;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenido-main--imagen{
+    width: 90%;
+    max-width: 500px;
+}
+.contenido-main--titulo{
+    font-size: 2rem;
+}
+
+.credits{
+    margin-top: inherit;
+}
+
+.watch-cards{
+    width: 28%;
+    animation: despliegue 1.6s alternate;
+}
+
+
+.cards--flecha{
+    display: block;
+}
+
+.card {
+    width: 80%;
+}
+
+@keyframes despliegue{
+    0%{
+        transform: translate(-30%);
+    }
+}
