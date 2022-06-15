@@ -7,11 +7,14 @@
   }
 
 :root{
-    --rojiso: #f03939;
-    --high-purple: rgb(128, 14, 33, 0.5);
-    --morado: rgb(128, 14, 33);
+    --rojiso: #a11e3a;
+    --high-purple: rgba(63, 39, 82, 0.733);
+    --morado: rgba(133, 31, 48, 0.6);
     --beich: #f2e6cc;
     --azul-dark: #291a44;
+    --verdecito : #1e6568;
+    --moradito: #3b1842;
+    --transp-moradito:rgba(59, 24, 66, 0.767);
     --transparent-brown: rgba(28, 16, 20, 0.6);
 }
 
@@ -22,8 +25,8 @@
 }
 
 body{   
-    background-color: var(--azul-dark);
-    background-image: url(../assets/images/imgs/fondr-reform.jpg);
+    background-color: var(--verdecito);
+    /*background-image: url(../assets/images/imgs/fondr-reform.jpg);*/
     background-attachment: fixed;
     font-family: 'Alice_wonder', sans-serif;
 }
@@ -42,5 +45,5 @@ body{
 
 ::-webkit-scrollbar-thumb{
     border-radius: 10px;
-    background-color: var(--rojiso);
+    background-color: var(--moradito);
 }

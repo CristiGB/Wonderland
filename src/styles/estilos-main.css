@@ -37,7 +37,7 @@
     font-family: emoji;
     font-size: 1.1rem;
     font-weight: 500;
-    background-color: rgb(128, 14, 33);
+    background-color: rgb(28, 24, 32);
 }
 
 /*cite*/
@@ -56,7 +56,7 @@
     display: inline-block;
     text-align: center;
     background-color: rgb(255, 255, 255);
-    color: var(--morado);
+    color: var(--rojiso);
 }
 
 

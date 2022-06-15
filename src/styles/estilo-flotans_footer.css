@@ -7,7 +7,7 @@
     bottom: 2rem;
     z-index: 20;
     border-radius: 50%;
-    background-color: rgba(193, 30, 49,0.8);
+    background-color: var(--transp-moradito);
     color: rgb(255, 255, 255);
     border: none;
     cursor: pointer;
@@ -43,7 +43,7 @@
     top: 25vh;
     left: calc(50% - 70vw / 2);
     border-radius: 0.3rem 0 0.3rem;
-    background-color: rgba(1, 2, 4,0.3);
+    background-color: var(--morado);
     display: flex;
     justify-content: center;
 }
@@ -57,7 +57,7 @@
 }
 
 .container_btn_close{
-    background-color: rgba(1, 2, 4,0.3);
+    background-color: var(--morado);
     padding: 0.5rem;
     position: absolute;
     top: -4rem;
